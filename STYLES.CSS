@@ -1,0 +1,195 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #443f3f;
+    background-color: #f18989;
+    padding: 0 10px;
+}
+
+header {
+    background-color: #aa5e93;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    border-radius: 50px;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 100;
+    color: #6b77e7;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ca555b;
+}
+
+section {
+    margin: 10em 0;
+    padding: 10em;
+    background-color: #e6dc5a;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.project {
+    margin: 1em 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+    width: 100%;
+    max-width: 400px;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    padding: 0.75em 1.5em;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0073e6;
+}
+
+/* Styles for resume section */
+#resume {
+    text-align: center;
+}
+
+#resume a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.75em 1.5em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #0073e6;
+}
+
+/* Styles for about section */
+#about {
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.profile-name {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #6b77e7;
+}
+
+.sm-handle {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.sm-handle a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.sm-handle a i {
+    margin-right: 0.5em;
+}
+
+.sm-handle a:hover {
+    color: #0073e6;
+}
+
+
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+
+    header {
+        text-align: left;
+        padding: 1em 20px;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    section {
+        margin: 3em auto;
+        padding: 2em 3em;
+        max-width: 800px;
+    }
+
+    form input, form textarea {
+        max-width: 400px;
+    }
+}

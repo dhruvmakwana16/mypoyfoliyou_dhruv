@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1 class="profile-name">My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img class="profile-img" src="/TYP/book.jpg" alt="This is Dhruv Makwana">
+        <h3 class="profile-name">Dhruv Makwana</h3>
+        <div class="sm-handle">
+            <a class="yt-handle" href="http://www.youtube.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-lg"></i>YouTube</a>
+            <a class="linkdn-handle" href="http://www.linkedin.com/in/dhruvmakwana" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-lg"></i>LinkedIn</a>
+            <a class="insta-handle" href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+        </div>
+        <p>Hello! I'm Dhruv Makwana,I am a software developer based in Gujarat, India. I am an
+            Computer engineering undergraduate from marwadi university. I am very
+            passionate about improving my coding skills & developing
+            applications & websites. Love to build Full-Stack clones.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>STUDENT STADY MUTERIAL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo laborum pariatur vero nostrum quasi fugit doloribus culpa illo sequi minus, neque blanditiis totam! Nisi ut sapiente quaerat doloremque tenetur!</p>
+        </div>
+        <div class="project">
+            <h3>libery manejamentum</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus dicta, architecto eveniet harum incidunt molestias officia dolor id assumenda, minima sint quas, ipsum placeat vel adipisci nesciunt at velit totam.</p>
+        </div>
+        <h2>Skill</h2>
+        <div class="project">
+            <h3>java,python,html,css,javascript,react,bootstrap,xml,angular,nodejs,</h3>
+ 
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume by clicking the link below:</p>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
